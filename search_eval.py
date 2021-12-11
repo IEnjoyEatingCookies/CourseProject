@@ -33,3 +33,4 @@ if __name__ == '__main__':
     input_str = "Vector Space Model"
     query.content(input_str.strip())
     results = ranker.score(idx, query, 10)
+    print(results)

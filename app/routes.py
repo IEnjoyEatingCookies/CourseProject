@@ -8,47 +8,37 @@ import time
 import metapy
 import pytoml
 
-def load_ranker(cfg_file):
-    """
-    Use this function to return the Ranker object to evaluate, 
-    The parameter to this function, cfg_file, is the path to a
-    configuration file used to load the index.
-    """
+def load_ranker():
     return metapy.index.OkapiBM25(1.5,0.75,3.25)
+
+@app.route("/recommend", methods = ['GET'])
+def recommend():
+    results = []
+    return render_template("index.html", results = results)
 
 @app.route("/search", methods = ['GET'])
 def search():
-    query = request.args.get("query")
-    # call ranker.score here from ranker file
-
-    # array of objects with Week #, Lecture #, and URL to Lecture
-    cfg = "../config.toml"
+    search_string = request.args.get('query')
+    cfg = 'config.toml'
+    lessons = 'lessonsInOrder.txt'
+    
     print('Building or loading index...')
     idx = metapy.index.make_inverted_index(cfg)
-    ranker = load_ranker(cfg)
-
-
-
-
+    ranker = load_ranker()
     query = metapy.index.Document()
 
-
     print('Running queries')
-    input_str = "Vector Space Model"
-    query.content(input_str.strip())
+    query.content(search_string.strip())
     results = ranker.score(idx, query, 10)
+    print(results)
     lesson_list = []
-    fp = open("file")
-    for i, line in enumerate(fp):
-        for res_val in results:
-            if (i == res_val):
-                lesson_list.append(line)
-                break
-    
 
-
-
-    
+    with open(lessons) as f:
+        lines = f.readlines()
+        for i, _ in results:
+            split = lines[i].index(' ')
+            lesson_list.append({'Week': lines[i][:split], 'Lecture': lines[i][split + 1:], 'URL': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'})
+    print('Finished Queries')
 
     return render_template("index.html", results = lesson_list)
 
