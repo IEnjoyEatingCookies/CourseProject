@@ -30,6 +30,6 @@ if __name__ == '__main__':
 
 
     print('Running queries')
-    input_str = "MAIN METHOD WHERE ARE YOUUU"
+    input_str = "Vector Space Model"
     query.content(input_str.strip())
     results = ranker.score(idx, query, 10)

@@ -1,0 +1,92 @@
+03_lesson 4.3 query likelihood retrieval function
+02_lesson 4.2 statistical language model
+07_lesson 4.7 smoothing methods part 2
+05_lesson 4.5 statistical language model part 2
+06_lesson 4.6 smoothing methods part 1
+04_lesson 4.4 statistical language model part 1
+01_lesson 4.1 probabilistic retrieval model basic idea
+04_9 5.probabilistic topic models expectation maximization algorithm part 2
+02_9 2.probabilistic topic models mixture model estimation part 1
+02_9 4.probabilistic topic models expectation maximization algorithm part 1
+01_9 1.probabilistic topic models mixture of unigram language models
+03_9 3.probabilistic topic models mixture model estimation part 2
+03_9 5.probabilistic topic models expectation maximization algorithm part 2
+05_9 6.probabilistic topic models expectation maximization algorithm part 3
+06_7 6.text representation part 2
+07_7 7.word association mining and analysis
+08_7 8.paradigmatic relation discovery part 1
+03_7 3.natural language content analysis part 1
+02_7 2.overview text mining and analytics part 2
+01_7 1.overview text mining and analytics part 1
+04_7 4.natural language content analysis part 2
+09_7 9.paradigmatic relation discovery part 2
+08_7 9.paradigmatic relation discovery part 2
+05_7 5.text representation part 1
+06_lesson 2.6 system implementation fast search
+05_lesson 2.5 system implementation inverted index construction
+04_lesson 2.4 implementation of tr systems
+02_lesson 2.2 tf transformation
+03_lesson 2.3 doc length normalization
+01_lesson 2.1 vector space model improved instantiation
+01_lesson 1.1 natural language content analysis
+03_lesson 1.3 text retrieval problem
+06_lesson 1.6 vector space retrieval model simplest instantiation
+05_lesson 1.5 vector space model basic idea
+04_lesson 1.4 overview of text retrieval methods
+02_lesson 1.2 text access
+01_12 7.contextual text mining mining causal topics with time series supervision
+01_12 3.text based prediction
+02_12 4.contextual text mining motivation
+05_lesson 5.5 web indexing
+07_lesson 5.7 link analysis part 2
+06_lesson 5.6 link analysis part 1
+01_lesson 5.1 feedback in text retrieval
+03_lesson 5.3 feedback in text retrieval feedback in lm
+04_lesson 5.4 web search introduction web crawler
+08_lesson 5.8 link analysis part 3 optional
+02_lesson 5.2 feedback in vector space model rocchio
+02_10 2.text clustering generative probabilistic models part 1 optional
+04_10 6.text clustering evaluation
+03_10 4.text clustering generative probabilistic models part 3 optional
+03_10 3.text clustering generative probabilistic models part 2 optional
+05_10 7.text categorization motivation
+04_10 5.text clustering similarity based approaches
+01_10 1.text clustering motivation
+07_10 9.text categorization generative probabilistic models
+06_10 8.text categorization methods
+02_10 3.text clustering generative probabilistic models part 2 optional
+02_8 2.syntagmatic relation discovery conditional entropy
+05_8 5.topic mining and analysis motivation and task definition
+10_8 10.probabilistic topic models mining one topic
+03_8 9.probabilistic topic models overview of statistical language models part 2
+09_8 9.probabilistic topic models overview of statistical language models part 2
+07_8 7.topic mining and analysis probabilistic topic models
+01_8 1.syntagmatic relation discovery entropy
+03_8 3.syntagmatic relation discovery mutual information part 1
+06_8 6.topic mining and analysis term as topic
+02_8 8.probabilistic topic models overview of statistical language models part 1
+04_8 4.syntagmatic relation discovery mutual information part 2
+08_8 8.probabilistic topic models overview of statistical language models part 1
+01_8 4.syntagmatic relation discovery mutual information part 2
+01_11 1.text categorization discriminative classifier part 1
+06_11 6.opinion mining and sentiment analysis sentiment classification
+04_11 4.text categorization evaluation part 2
+03_11 3.text categorization evaluation part 1
+02_11 2.text categorization discriminative classifier part 2 optional
+05_11 5.opinion mining and sentiment analysis motivation
+10_lesson 6.10 summary for exam 1
+02_lesson 6.2 learning to rank part 2 optional
+06_lesson 6.6 recommender systems content based filtering part 2
+09_lesson 6.9 recommender systems collaborative filtering part 3
+07_lesson 6.7 recommender systems collaborative filtering part 1
+05_lesson 6.5 recommender systems content based filtering part 1
+01_lesson 6.1 learning to rank part 1 optional
+04_lesson 6.4 future of web search
+08_lesson 6.8 recommender systems collaborative filtering part 2
+03_lesson 6.3 learning to rank part 3 optional
+01_lesson 3.1 evaluation of tr systems
+05_lesson 3.5 evaluation of tr systems multi level judgements
+03_lesson 3.3 evaluation of tr systems evaluating ranked lists part 1
+04_lesson 3.4 evaluation of tr systems evaluating ranked lists part 2
+02_lesson 3.2 evaluation of tr systems basic measures
+06_lesson 3.6 evaluation of tr systems practical issues
