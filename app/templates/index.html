@@ -14,7 +14,7 @@
     <div class="container py-4">
         <div class="p-5 mb-4 bg-light rounded-3">
             <div class="table-search container-fluid py-5">
-                <form id="searchbar" >
+                <form id="searchbar" action="/search" onsubmit="search(event, this)">
                     <div class="row">
                         <div class="col">
                             <label for="query-input" class="form-label">Query</label>
@@ -22,8 +22,9 @@
                           </div>
                           </div>
                     </div>
-                    <button type="submit" action="/search" class="btn btn-primary mt-3" onsubmit="search(event, this)">Search</button>
-                    <button type="submit" action="/recommend" class="btn btn-primary mt-3" onsubmit="recommend(event, this)">I'm Feeling Lucky</button>
+                    <button name="rank" type="submit" class="btn btn-primary mt-3">Search</button>
+                    <button name="recommend" type="submit" class="btn btn-primary mt-3">I'm Feeling Lucky</button>
+                    <p>{{txt}}</p>
                   </form>
             </div>
         </div>
